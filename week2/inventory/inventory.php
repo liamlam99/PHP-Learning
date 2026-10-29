@@ -12,6 +12,7 @@ $summary = buildInventorySummary($products, $lowStockThreshold);
 <?php require __DIR__ . "/include/header.php"; ?>
 
 <body class="min-h-screen bg-slate-100 text-slate-800">
+  <?php require __DIR__ . "/navbar.php" ?>
 
   <main class="mx-auto max-w-7xl px-6 py-10">
     <h1 class="text-3xl font-bold"><?= htmlspecialchars($pageTitle, ENT_QUOTES, "UTF-8") ?></h1>
